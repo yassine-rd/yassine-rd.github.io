@@ -5,7 +5,7 @@
     <head>
         <!--==================== META ====================-->
         <meta name="description" content="Personal page of Yassine Rodani, Computer Engineering Student at University Haute-Alsace">
-        <meta name="keywords" content="yassine rodani, computer engineering, cnn, convolutional neural network, web development">
+        <meta name="keywords" content="yassine rodani, computer engineering, data analysis, data science, web development, machine learning, deep learning">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,7 +17,7 @@
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
         <!--==================== FAVICON ====================-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+        <link rel="shortcut icon" href="assets/img/general/favicon.png" type="image/png">
         <!--==================== GOOGLE ANALYTICS ====================-->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-9EB07NXS50"></script>
         <script>
@@ -58,6 +58,11 @@
                             </a>
                         </li>
                         <li class="nav__item">
+                            <a href="#certifications" class="nav__link">
+                                <i class="uil uil-book-alt nav__icon"></i> Certifications
+                            </a>
+                        </li>
+                        <li class="nav__item">
                             <a href="#projects" class="nav__link">
                                 <i class="uil uil-file-alt nav__icon"></i> Projects
                             </a>
@@ -89,8 +94,7 @@
                 <div class="home__container container grid">
                     <div class="home__content grid">
                         <div class="home__social">
-                            <a href="https://www.linkedin.com/in/yassine-rodani" target="_blank"
-                                class="home__social-icon">
+                            <a href="https://www.linkedin.com/in/yassine-rodani" target="_blank" class="home__social-icon">
                                 <i class="uil uil-linkedin-alt"></i>
                             </a>
 
@@ -100,6 +104,10 @@
 
                             <a href="https://twitter.com/yassine_rd_" target="_blank" class="home__social-icon">
                                 <i class="uil uil-twitter-alt"></i>
+                            </a>
+
+                            <a style="margin-left: 0.2rem;" href="https://www.kaggle.com/yassinerodani" target="_blank" class="home__social-icon">
+                                <i <i class="fa-brands fa-kaggle"></i></i>
                             </a>
                         </div>
 
@@ -117,7 +125,7 @@
                                         165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                         129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                                         -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                                    <image class="home__blob-img" x="-5" y="5"href="assets/img/perfil.png" />
+                                    <image class="home__blob-img" x="-5" y="5"href="assets/img/general/perfil.png" />
                                 </g>
                             </svg>
                         </div>
@@ -152,7 +160,7 @@
                 <span class="section__subtitle">My introduction</span>
 
                 <div class="about__container container grid">
-                    <img src="assets/img/background.png" alt="About section background image" class="about__img">
+                    <img src="assets/img/general/background.png" alt="About section background image" class="about__img">
 
                     <div class="about__data">
                         <p class="about__description">
@@ -529,7 +537,7 @@
 
                                 <div>
                                     <span class="qualification__rounder"></span>
-                                    <div class="qualification__line"></div>
+                                    <!-- <div class="qualification__line"></div> -->
                                 </div>
                                 
                                 <div>
@@ -545,28 +553,8 @@
                                     </div>
                                 </div>
                             </div>
-
                             <!--==================== QUALIFICATION 5 ====================-->
-                            <div class="qualification__data">
 
-                                <div>
-                                    <h3 class="qualification__title">
-                                        <a>
-                                            Responsive Web Design Certification
-                                        </a>
-                                    </h3>
-                                    <span class="qualification__subtitle">freeCodeCamp</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        09/2022
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <!-- <div class="qualification__line"></div> -->
-                                </div>
-                            </div>
                         </div>
                         <!--==================== QUALIFICATION CONTENT 2 ====================-->
                         <div class="qualification__content" data-content id="work">
@@ -576,9 +564,9 @@
 
                                 <div>
                                     <h3 class="qualification__title">
-                                       <a>Software Developer</a>
+                                       <a>Software Developer Intern</a>
                                     </h3>
-                                    <span class="qualification__subtitle">Fujikura - Morocco</span>
+                                    <span class="qualification__subtitle">Morocco - Fujikura</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         07/2021 - 08/2021
@@ -607,6 +595,71 @@
                 </div>
             </section>
 
+            <!--==================== CERTIFICATIONS ====================-->
+            <section class="certification section" id="certifications">
+                <h2 class="section__title">Certifications</h2>
+                <span class="section__subtitle">Extra courses I have undertaken</span>
+
+                <div class="certification__container container grid">
+                    
+                    <!--==================== CERTIFICATION 1 ====================-->
+                    <div class="certification__content">
+                        <div>
+                            <img src="assets/img/certifications/freeCodeCamp.png" class="certification__img_1">
+                            <h4 class="certification__title">Responsive Web Design</h4>
+                            <h4 class="certification__subtitle">Expiry Date: Does not expire</h4>
+                        </div>
+
+                        <a  class="button button--flex button--small button--link certification__button" href="https://freecodecamp.org/certification/yassine-rd/responsive-web-design" target="_blank">
+                            View Certificate
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                    
+                    <!--==================== CERTIFICATION 2 ====================-->
+                    <div class="certification__content">
+                        <div>
+                            <img src="assets/img/certifications/cognitiveClass.png" class="certification__img">
+                            <h4 class="certification__title">Python 101 for Data Science</h4>
+                            <h4 class="certification__subtitle">Expiry Date: Does not expire</h4>
+                        </div>
+
+                        <a  class="button button--flex button--small button--link certification__button" href="https://courses.cognitiveclass.ai/certificates/8dac28d196f5437e83516be6fa217089" target="_blank">
+                            View Certificate
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+
+                    <!--==================== CERTIFICATION 3 ====================-->
+                    <div class="certification__content">
+                        <div>
+                            <img src="assets/img/certifications/coursera.png" class="certification__img">
+                            <h4 class="certification__title">What is Data Science?</h4>
+                            <h4 class="certification__subtitle">Expiry Date: Does not expire</h4>
+                        </div>
+
+                        <a  class="button button--flex button--small button--link certification__button" href="https://coursera.org/verify/4XEWYXNPHBRK" target="_blank">
+                            View Certificate
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+
+                    <!--==================== CERTIFICATION 4 ====================-->
+                    <div class="certification__content">
+                        <div>
+                            <img src="assets/img/certifications/coursera.png" class="certification__img">
+                            <h4 class="certification__title">Tools for Data Science</h4>
+                            <h4 class="certification__subtitle">Expiry Date: Does not expire</h4>
+                        </div>
+
+                        <a  class="button button--flex button--small button--link certification__button" href="https://coursera.org/verify/8B3X56CEJAMP" target="_blank">
+                            View Certificate
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
             <!--==================== PROJECTS ====================-->
             <section class="projects section" id="projects">
                 <h2 class="section__title">Projects</h2>
@@ -616,7 +669,7 @@
                     <div class="swiper-wrapper">
                         <!--==================== PROJECT 1 ====================-->
                         <div class="projects__content grid swiper-slide">
-                            <img src="assets/img/project-1.png" alt="Bird Classifier project's image" class="projects__img">
+                            <img src="assets/img/projects/project-1.png" alt="Bird Classifier project's image" class="projects__img">
 
                             <div class="projects__data">
                                 <h3 class="projects__title">Bird Classifier</h3>
@@ -632,7 +685,7 @@
                         </div>
                         <!--==================== PROJECT 2 ====================-->
                         <div class="projects__content grid swiper-slide">
-                            <img src="assets/img/project-2.png" alt="Portfolio Website project's image" class="projects__img">
+                            <img src="assets/img/projects/project-2.png" alt="Portfolio Website project's image" class="projects__img">
 
                             <div class="projects__data">
                                 <h3 class="projects__title">Portfolio Website</h3>
@@ -648,7 +701,7 @@
                         </div>
                         <!--==================== PROJECT 3 ====================-->
                         <div class="projects__content grid swiper-slide">
-                            <img src="assets/img/project-3.png" alt="Classroom Manager project's image" class="projects__img">
+                            <img src="assets/img/projects/project-3.png" alt="Classroom Manager project's image" class="projects__img">
 
                             <div class="projects__data">
                                 <h3 class="projects__title">Classroom Manager</h3>
@@ -768,6 +821,7 @@
                         <li>
                             <a href="#contact" class="footer__link">Contact</a>
                         </li>
+                        
                     </ul>
 
                     <div class="footer__socials">
@@ -801,5 +855,7 @@
         <script src="assets/js/scrollreveal.min.js"></script>
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
+
+        <script src="https://kit.fontawesome.com/b58a420f20.js" crossorigin="anonymous"></script>
     </body>
 </html>
