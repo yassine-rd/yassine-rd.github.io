@@ -393,7 +393,6 @@ img {
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
-  animation: float-img 3.5s ease-in-out infinite;
 }
 
 .about__description {
