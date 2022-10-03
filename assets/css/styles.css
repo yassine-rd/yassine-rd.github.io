@@ -393,6 +393,7 @@ img {
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
+  animation: float-img 3.5s ease-in-out infinite;
 }
 
 .about__description {
@@ -685,7 +686,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  animation: float-img 2.5s ease-in-out infinite;
+  animation: float-img 3.5s ease-in-out infinite;
 }
 
 .certification__img{
@@ -694,7 +695,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-  animation: float-img 2.5s ease-in-out infinite;
+  animation: float-img 3.5s ease-in-out infinite;
 }
 
 @keyframes float-img{
