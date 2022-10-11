@@ -794,7 +794,7 @@ img {
   bottom: -2.5rem;
 }
 
-.swiper-pagination-bullet-active {
+.swiper-pagination-bullet {
   background-color: var(--first-color);
 }
 
@@ -803,6 +803,34 @@ img {
 .swiper-button-next,
 .swiper-pagination-bullet {
   outline: none;
+}
+
+/*==================== BLOG ====================*/
+.blog__container{
+  overflow: initial;
+}
+
+.blog__content{
+  padding: 0 1.5rem;
+}
+
+.blog__img{
+  width: 400px;
+  border-radius: .5rem;
+  justify-self: center;
+}
+
+.blog__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.blog__description{
+  margin-bottom: var(--mb-0-75);
+}
+
+.blog__button:hover .button__icon {
+  transform: translateX(.25rem);
 }
 
 /*==================== CONTACT ME ====================*/
@@ -1073,6 +1101,7 @@ img {
   .about__container,
   .skills__container,
   .projects__content,
+  .blog__content,
   .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
@@ -1200,6 +1229,10 @@ img {
     align-items: center;
   }
 
+  .blog__content{
+    align-items: center;
+}
+
   .footer__container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1210,11 +1243,15 @@ img {
 
   .footer__links {
     flex-direction: row;
-    column-gap: 2rem;
+    column-gap: 1rem;
   }
 
   .footer__socials {
-    justify-self: flex-end;
+    justify-self:flex-end;
+  }
+
+  .footer__social {
+    margin: 1.5rem;
   }
 
   .footer__copy {
@@ -1250,6 +1287,10 @@ img {
   .projects__content {
     column-gap: 5rem;
   }
+
+  .blog__content{
+    column-gap: 5rem;
+}
 
   .swiper-projects-icon {
     font-size: 3rem;

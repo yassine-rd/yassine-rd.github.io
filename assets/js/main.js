@@ -69,7 +69,7 @@ tabs.forEach(tab =>{
 })
 
 /*==================== PROJECTS SWIPER ====================*/
-let swiper = new Swiper('.projects__container', {
+let projects_swiper = new Swiper('.projects__container', {
     cssMode: true,
     loop:true,
 
@@ -81,6 +81,21 @@ let swiper = new Swiper('.projects__container', {
       el: '.swiper-pagination',
       clickable: true,
     },
+});
+
+/*==================== BLOG SWIPER ====================*/
+let blog_swiper = new Swiper('.blog__container', {
+  cssMode: true,
+  loop:true,
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
 });
 
 /*==================== SCROLLING THROUGH SECTIONS & ACTIVE LINK ====================*/
@@ -217,4 +232,5 @@ ScrollReveal().reveal('.skills__container', {duration: 2000, delay: 50})
 ScrollReveal().reveal('.qualification__container', {duration: 2000, delay: 50})
 ScrollReveal().reveal('.certification__container', {duration: 2000, delay: 50})
 ScrollReveal().reveal('.projects__container', {duration: 2000, delay: 50})
+ScrollReveal().reveal('.blog__container', {duration: 2000, delay: 50})
 ScrollReveal().reveal('.contact__container', {duration: 2000, delay: 50})
