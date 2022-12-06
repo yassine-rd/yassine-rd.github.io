@@ -309,6 +309,11 @@ img {
 
 .home__blob-img {
   width: 200px;
+  transition: 0.5s;
+}
+
+.home__blob-img:hover {
+  transform: translateY(-5px);
 }
 
 .home__data {
@@ -393,6 +398,11 @@ img {
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
+  transition: .5s;
+}
+
+.about__img:hover {
+  transform: scale(1.05);
 }
 
 .about__description {
