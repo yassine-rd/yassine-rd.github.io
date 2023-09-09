@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Yassine&#39;Log</title>
+    <link>https://yassine-rd.github.io/</link>
+    <description>Recent content on Yassine&#39;Log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>https://yassine-rd.github.io/projects/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://yassine-rd.github.io/projects/</guid>
+      <description>Personal Projects PaperWhiz - NLP-based recommender system Apr. - Jun. 2023, Python
+Github : https://github.com/yassine-rd/PaperWhiz
+Report : https://github.com/yassine-rd/PaperWhiz/blob/master/assets/pdf/report.pdf
+Web app : https://paperwhiz.streamlit.app/
+In this project, I developed an NLP-based paper recommender system designed to recommend germane scientific papers tailored to a user&amp;rsquo;s specific interests.
+Papers are scraped from &amp;ldquo;cs.CV&amp;rdquo;, &amp;ldquo;stat.ML&amp;rdquo;, &amp;ldquo;cs.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://yassine-rd.github.io/about/</link>
+      <pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://yassine-rd.github.io/about/</guid>
+      <description>A snapshot into my background, interests, and what inspires me.</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>
