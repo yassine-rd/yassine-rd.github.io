@@ -5,16 +5,6 @@
     <link>https://yassine-rodani.info/categories/</link>
     <description>Recent content in Categories on Yassine&#39;Log</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rodani.info/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>blog</title>
-      <link>https://yassine-rodani.info/categories/blog/</link>
-      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://yassine-rodani.info/categories/blog/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://yassine-rodani.info/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
