@@ -77,8 +77,8 @@ if (!doNotTrack) {
   "keywords": [
     
   ],
-  "articleBody": "Personal Projects PaperWhiz - NLP-based recommender system Apr. - Jun. 2023, Python\nGithub : https://github.com/yassine-rd/PaperWhiz\nReport : https://github.com/yassine-rd/PaperWhiz/blob/master/assets/pdf/report.pdf\nWeb app : https://paperwhiz.streamlit.app/\nIn this project, I developed an NLP-based paper recommender system designed to recommend germane scientific papers tailored to a user’s specific interests.\nPapers are scraped from “cs.CV”, “stat.ML”, “cs.LG” and “cs.AI” sections on the arXiv website, using the arXiv Python library that provides a wrapper around the original arXiv API. EDA, data processing, and feature engineering are used to produce the best text data for the embedding process. Hugging Face Sentence Transformer (all-MiniLM-L6-v2) is used to embed the text data with PyTorch. The similarity between papers is calculated using cosine similarity, once by comparing titles and once by comparing abstracts. Once similarity scores are calculated, the top 4 most similar papers will be recommended to the user, along with their abstracts and links to the full text. Pipelines are set up to scrape new papers from the arXiv website every month, re-embed the new data collected when the pipeline is triggered, and re-train the model to keep it up to date using Github Actions and Hopsworks, leveraging its feature store and model registry. Web application is built using Streamlit to interact with the recommender system and deployed on Streamlit Sharing. Evaluation will be done using the Trubrics feedback component with Streamlit, enabling the collection of user feedback on paper recommendations. \u003c!DOCTYPE HTML\u003e Movie Sentiment Analysis Feb. - Mar. 2023, Python\nGithub : https://github.com/yassine-rd/movie-sentiment-analysis\nReport : https://github.com/yassine-rd/movie-sentiment-analysis/blob/master/assets/pdf/report.pdf\nWeb app : https://movie-sentiment.streamlit.app/\nThis project consists of building a movie sentiment analysis system leveraging user critics’ reviews.\nWhat I did:\nImplemented a multinomial Naive Bayes algorithm to accurately classify movie reviews as either positive or negative using scikit-learn. Embedded over 200,000 movie reviews using TF-IDF for feature extraction. Obtained an average precision of 86.3% on the IMDb dataset. Deployed the model in a Python web application using Streamlit, which has been containerized with Docker. My Personal Website Jun. 2022 - Now, HTML, CSS, JavaScript\nGithub : https://github.com/yassine-rd/yassine-rd.github.io\nThis website is based on Hugo and uses PaperMod theme. Graduate Projects Fish detection, tracking and counting using YOLOv4 and Darknet Sep. - Feb. 2023, Python, C++\nGithub : https://github.com/yassine-rd/movie-sentiment-analysis\nIn this project, I built a computer vision system for tracking and counting two distinct fish species within an aquarium, using the YOLOv4 and YOLOv4-tiny object detection algorithms.\nWhat I did :\nFine-tuned state-of-the-art pre-trained YOLOv4 model using the Darknet framework. Developed algorithms for building the model and running inference model using TensorFlow. Attained a mean average precision (mAP) of 93%. Deployed the model on a Raspberry Pi using TensorFlow Lite. Performed AI model quantization for edge devices to optimize computational efficiency and model size. \u003c!DOCTYPE HTML\u003e Bird recognition using deep learning-based methods Mar. - Jun. 2023, Python\nGithub : https://github.com/yassine-rd/bird_species_classification\nThis project consists of building a simple web app to recognize and classify birds through photographs using CNNs.\nWhat I did:\nTrained a CNN with 4+ million parameters from scratch. Fine-tuned the VGG16 pre-trained model for the bird classification task. Achieved a final precision of 92% on the BIRDS 525 data set. Developed a REST API using Python and Flask to deploy the classification model. ",
-  "wordCount" : "532",
+  "articleBody": "Personal Projects PaperWhiz - NLP-based recommender system Apr. - Jun. 2023, Python\nGithub : https://github.com/yassine-rd/PaperWhiz\nReport : https://github.com/yassine-rd/PaperWhiz/blob/master/assets/pdf/report.pdf\nWeb app : https://paperwhiz.streamlit.app/\nIn this project, I developed an NLP-based paper recommender system designed to recommend germane scientific papers tailored to a user’s specific interests.\nPapers are scraped from “cs.CV”, “stat.ML”, “cs.LG” and “cs.AI” sections on the arXiv website, using the arXiv Python library that provides a wrapper around the original arXiv API. EDA, data processing, and feature engineering are used to produce the best text data for the embedding process. Hugging Face Sentence Transformer (all-MiniLM-L6-v2) is used to embed the text data with PyTorch. The similarity between papers is calculated using cosine similarity, once by comparing titles and once by comparing abstracts. Once similarity scores are calculated, the top 4 most similar papers will be recommended to the user, along with their abstracts and links to the full text. Pipelines are set up to scrape new papers from the arXiv website every month, re-embed the new data collected when the pipeline is triggered, and re-train the model to keep it up to date using Github Actions and Hopsworks, leveraging its feature store and model registry. Web application is built using Streamlit to interact with the recommender system and deployed on Streamlit Sharing. Evaluation will be done using the Trubrics feedback component with Streamlit, enabling the collection of user feedback on paper recommendations. \u003c!DOCTYPE HTML\u003e Movie Sentiment Analysis Feb. - Mar. 2023, Python\nGithub : https://github.com/yassine-rd/movie-sentiment-analysis\nReport : https://github.com/yassine-rd/movie-sentiment-analysis/blob/master/assets/pdf/report.pdf\nWeb app : https://movie-sentiment.streamlit.app/\nThis project consists of building a movie sentiment analysis system leveraging user critics’ reviews.\nWhat I did:\nImplemented a multinomial Naive Bayes algorithm to accurately classify movie reviews as either positive or negative using scikit-learn. Embedded over 200,000 movie reviews using TF-IDF for feature extraction. Deployed the model in a Python web application using Streamlit, which has been containerized with Docker. My Personal Website Jun. 2022 - Now, HTML, CSS, JavaScript\nGithub : https://github.com/yassine-rd/yassine-rd.github.io\nThis website is based on Hugo and uses PaperMod theme. Graduate Projects Fish detection, tracking and counting using YOLOv4 and Darknet Sep. - Feb. 2023, Python, C++\nGithub : https://github.com/yassine-rd/movie-sentiment-analysis\nIn this project, I built a computer vision system for tracking and counting two distinct fish species within an aquarium, using the YOLOv4 and YOLOv4-tiny object detection algorithms.\nWhat I did :\nFine-tuned state-of-the-art pre-trained YOLOv4 model using the Darknet framework. Developed algorithms for building the model and running inference model using TensorFlow. Deployed the model on a Raspberry Pi using TensorFlow Lite. Performed AI model quantization for edge devices to optimize computational efficiency and model size. \u003c!DOCTYPE HTML\u003e ",
+  "wordCount" : "435",
   "inLanguage": "en",
   "datePublished": "2023-09-01T00:00:00Z",
   "dateModified": "2023-09-06T00:00:00Z",
@@ -201,9 +201,7 @@ if (!doNotTrack) {
                         <a href="#graduate-projects" aria-label="Graduate Projects">Graduate Projects</a><ul>
                             
                     <li>
-                        <a href="#fish-detection-tracking-and-counting-using-yolov4-and-darknet" aria-label="Fish detection, tracking and counting using YOLOv4 and Darknet">Fish detection, tracking and counting using YOLOv4 and Darknet</a></li>
-                    <li>
-                        <a href="#bird-recognition-using-deep-learning-based-methods" aria-label="Bird recognition using deep learning-based methods">Bird recognition using deep learning-based methods</a>
+                        <a href="#fish-detection-tracking-and-counting-using-yolov4-and-darknet" aria-label="Fish detection, tracking and counting using YOLOv4 and Darknet">Fish detection, tracking and counting using YOLOv4 and Darknet</a>
                     </li>
                 </ul>
                 </li>
@@ -351,7 +349,6 @@ if (!doNotTrack) {
 <ul>
 <li>Implemented a multinomial <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayes</a> algorithm to accurately classify movie reviews as either positive or negative using <a href="https://github.com/scikit-learn/scikit-learn">scikit-learn</a>.</li>
 <li>Embedded over 200,000 movie reviews using <a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">TF-IDF</a> for feature extraction.</li>
-<li>Obtained an average precision of 86.3% on the IMDb dataset.</li>
 <li>Deployed the model in a Python web application using Streamlit, which has been containerized with <a href="https://www.docker.com/">Docker</a>.</li>
 </ul>
 <hr>
@@ -374,7 +371,6 @@ if (!doNotTrack) {
 <ul>
 <li>Fine-tuned state-of-the-art pre-trained YOLOv4 model using the <a href="https://github.com/AlexeyAB/darknet">Darknet</a> framework.</li>
 <li>Developed algorithms for building the model and running inference model using <a href="https://github.com/tensorflow/tensorflow">TensorFlow</a>.</li>
-<li>Attained a mean average precision (mAP) of 93%.</li>
 <li>Deployed the model on a Raspberry Pi using <a href="https://www.tensorflow.org/lite?hl=fr">TensorFlow Lite</a>.</li>
 <li>Performed AI model <a href="https://www.tensorflow.org/lite/performance/post_training_quantization?hl=en">quantization</a> for edge devices to optimize computational efficiency and model size.</li>
 </ul>
@@ -421,21 +417,6 @@ if (!doNotTrack) {
 </div>
 </body>
 </html>
-<h3 id="bird-recognition-using-deep-learning-based-methods">Bird recognition using deep learning-based methods<a hidden class="anchor" aria-hidden="true" href="#bird-recognition-using-deep-learning-based-methods">#</a></h3>
-<p><em>Mar. - Jun. 2023, Python</em></p>
-<blockquote>
-<p>Github : <a href="https://github.com/yassine-rd/bird_species_classification">https://github.com/yassine-rd/bird_species_classification</a></p>
-</blockquote>
-<p><img loading="lazy" src="/images/projects/birds.png" alt="Bird recognition using deep learning-based methods"  />
-</p>
-<p>This project consists of building a simple web app to recognize and classify birds through photographs using <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">CNNs</a>.</p>
-<p>What I did:</p>
-<ul>
-<li>Trained a CNN with 4+ million parameters from scratch.</li>
-<li>Fine-tuned the <a href="https://arxiv.org/abs/1409.1556">VGG16</a> pre-trained model for the bird classification task.</li>
-<li>Achieved a final precision of 92% on the <a href="https://www.kaggle.com/datasets/gpiosenka/100-bird-species">BIRDS 525</a> data set.</li>
-<li>Developed a REST API using Python and <a href="https://github.com/pallets/flask">Flask</a> to deploy the classification model.</li>
-</ul>
 
 
   </div>
