@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yassine&#39;Log</title>
-    <link>https://yassine-rodani.info/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Yassine&#39;Log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rodani.info/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
-      <link>https://yassine-rodani.info/projects/</link>
+      <link>http://localhost:1313/projects/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rodani.info/projects/</guid>
+      <guid>http://localhost:1313/projects/</guid>
       <description>A showcase of my hands-on endeavors, from conceptual ideas to realized outcomes.</description>
     </item>
     
     <item>
       <title>About me</title>
-      <link>https://yassine-rodani.info/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rodani.info/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>A snapshot into my background, interests, and what inspires me.</description>
     </item>
     
